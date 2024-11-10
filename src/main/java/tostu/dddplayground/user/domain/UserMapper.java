@@ -1,8 +1,10 @@
 package tostu.dddplayground.user.domain;
 
+import org.jmolecules.architecture.layered.DomainLayer;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingConstants;
 
+@DomainLayer
 @Mapper(componentModel = MappingConstants.ComponentModel.SPRING)
 public interface UserMapper {
 

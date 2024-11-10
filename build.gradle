@@ -37,6 +37,11 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.modulith:spring-modulith-starter-jpa'
     implementation 'org.mapstruct:mapstruct:1.6.3'
+    implementation 'org.jmolecules:jmolecules-ddd:1.9.0'
+    implementation 'org.jmolecules:jmolecules-architecture:1.9.0'
+    implementation 'org.jmolecules:jmolecules-layered-architecture:1.9.0'
+    implementation 'org.jmolecules:jmolecules-cqrs-architecture:1.9.0'
+    implementation 'org.jmolecules:jmolecules-hexagonal-architecture:1.9.0'
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     developmentOnly 'org.springframework.boot:spring-boot-docker-compose'
@@ -46,6 +51,9 @@ dependencies {
     annotationProcessor 'org.mapstruct:mapstruct-processor:1.6.3'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.modulith:spring-modulith-starter-test'
+    testImplementation 'com.tngtech.archunit:archunit:1.1.1'
+    testImplementation 'com.tngtech.archunit:archunit-junit5:1.1.1'
+    testImplementation 'org.jmolecules.integrations:jmolecules-archunit:0.23.0'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
