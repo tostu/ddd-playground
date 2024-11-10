@@ -1,6 +1,5 @@
-package tostu.dddplayground.ddd;
+package tostu.dddplayground;
 
-import com.tngtech.archunit.core.domain.*;
 import com.tngtech.archunit.junit.*;
 import com.tngtech.archunit.lang.*;
 
